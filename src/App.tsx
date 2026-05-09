@@ -1,29 +1,27 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ProductStory from "./components/ProductStory";
-import Features from "./components/Features";
-import HowItWorks from "./components/HowItWorks";
-import SocialProof from "./components/SocialProof";
-import UseCases from "./components/UseCases";
-import Pricing from "./components/Pricing";
-import FinalCTA from "./components/FinalCTA";
-import Footer from "./components/Footer";
+import TopRail from "./components/TopRail";
+import HeroPhones from "./components/HeroPhones";
+import LiveCity from "./components/LiveCity";
+import ActionCarousel from "./components/ActionCarousel";
+import StoryStrip from "./components/StoryStrip";
+import EarnPanel from "./components/EarnPanel";
+import PlanCards from "./components/PlanCards";
+import DownloadHero from "./components/DownloadHero";
+import StripFooter from "./components/StripFooter";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-bg text-ink overflow-x-clip">
-      <Navbar />
+    <div className="min-h-screen bg-bg text-ink">
+      <TopRail />
       <main>
-        <Hero />
-        <ProductStory />
-        <Features />
-        <HowItWorks />
-        <SocialProof />
-        <UseCases />
-        <Pricing />
-        <FinalCTA />
+        <HeroPhones />
+        <LiveCity />
+        <ActionCarousel />
+        <StoryStrip />
+        <EarnPanel />
+        <PlanCards />
+        <DownloadHero />
       </main>
-      <Footer />
+      <StripFooter />
     </div>
   );
 }
